@@ -1,0 +1,5 @@
+{
+  "extract_query": "select * from public.electronic_card_transactions_december",
+  "transform_query": "select * from extract_table where status = 'F' ",
+  "load_table": "PROJECT.test.test_table"
+}

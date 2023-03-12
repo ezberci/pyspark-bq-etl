@@ -1,0 +1,1 @@
+gsutil cp gs://spark-etl-files/credentialsFile.json /usr/local/spark/credentials/credentialsFile.json
